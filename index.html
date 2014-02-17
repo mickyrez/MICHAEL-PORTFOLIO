@@ -134,7 +134,50 @@
     </div>
     <div class="content" id="panel3a">
     <h1 id="panel3h">Blog</h1>
-      <p>Panel 3 content goes here.</p>
+      <p><div class="orbit-container">
+<ul class="example-orbit-content" data-orbit>
+  <li data-orbit-slide="headline-1">
+    <div>
+      <h2>Headline 1</h2>
+      <h3>Subheadline</h3>
+    </div>
+  </li>
+  <li data-orbit-slide="headline-2">
+    <div>
+      <h2>Headline 2</h2>
+      <h3>Subheadline</h3>
+    </div>
+  </li>
+  <li data-orbit-slide="headline-3">
+    <div>
+      <h2>Headline 3</h2>
+      <h3>Subheadline</h3>
+    </div>
+  </li>
+</ul>
+
+  <!-- Navigation Arrows -->
+  <a href="#" class="orbit-prev">Prev <span></span></a>
+  <a href="#" class="orbit-next">Next <span></span></a>
+
+  <!-- Slide Numbers -->
+  <div class="orbit-slide-number">
+    <span>1</span> of <span>3</span>
+  </div>
+
+  <!-- Timer and Play/Pause Button -->
+  <div class="orbit-timer">
+    <span></span>
+    <div class="orbit-progress"></div>
+  </div>
+</div>
+
+<!-- Bullets -->
+<ol class="orbit-bullets">
+  <li data-orbit-slide-number="1"></li>
+  <li data-orbit-slide-number="2" class="active"></li>
+  <li data-orbit-slide-number="3"></li>
+</ol></p>
     </div>
     <div class="content" id="panel4a">
     <h1 id="panel4h">Contact Form</h1>
@@ -168,6 +211,7 @@
 
   <script src="javascripts/vendor/jquery.js"></script>
   <script src="javascripts/foundation.min.js"></script>
+  <script src="javascripts/foundation.orbit.js"></script>
   <script>
        $(document).foundation({
       tab: {
